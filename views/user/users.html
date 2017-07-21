@@ -1,6 +1,7 @@
+<p>以下是user列表</p>
 <ul>
-    <li ng-click="change(1)">aa</li>
-    <li ng-click="change(2)">bb</li>
+    <li ng-click="change(1)" style="cursor: pointer">userOne</li>
+    <li ng-click="change(2)" style="cursor: pointer">userTwo</li>
 </ul>
 <div ng-if="show1" ng-include="'views/user/user1.html'" ng-controller="user1Controller"></div>
 <div ng-if="show2" ng-include="'views/user/user2.html'" ng-controller="user2Controller"></div>
